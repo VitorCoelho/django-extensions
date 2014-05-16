@@ -1,13 +1,42 @@
 *.pyc
 *.pyo
 *.egg-info
+*.egg
+*.so
 MANIFEST
-build
-dist
+
+# Django stuff:
+*.log
+*.pot
+
+# Translations
+*.mo
+
+# Distribution / packaging
+env/
+bin/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+build/
+dist/
 docs/_build
 docs/_static
 venv
-*.egg-info
 .tox
 *.bak
 .DS_Store
+
+__pycache__/
+.pydevproject
+.ropeproject
+
+pip-log.txt
+htmlcov/
+.tox/
+.coverage
+.cache
